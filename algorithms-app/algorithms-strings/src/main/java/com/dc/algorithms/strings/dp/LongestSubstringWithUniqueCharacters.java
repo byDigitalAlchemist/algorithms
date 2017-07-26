@@ -19,10 +19,11 @@ public class LongestSubstringWithUniqueCharacters {
 	    int[] visited =  new int[256];
 	 
 	    /* Initialize the visited array as -1, -1 is used to
-	       indicate that character has not been visited yet. */
-	    //for (i = 0; i < 256;  i++)
-	    //    visited[i] = -1;
-	 
+	       indicate that character has not been visited yet.
+	    	for (i = 0; i < 256;  i++)
+	    		visited[i] = -1;
+	    */
+	    	
 	    /* Mark first character as visited by storing the index
 	       of first   character in visited array. */
 	    visited[((int)userString.charAt(0))] = 1;
