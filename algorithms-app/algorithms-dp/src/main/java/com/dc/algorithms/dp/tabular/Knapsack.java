@@ -1,4 +1,4 @@
-package com.dc.algorithms.dp.problem;
+package com.dc.algorithms.dp.tabular;
 
 public class Knapsack {
 
