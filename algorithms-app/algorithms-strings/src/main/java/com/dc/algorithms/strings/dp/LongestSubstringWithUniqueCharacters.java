@@ -60,7 +60,8 @@ public class LongestSubstringWithUniqueCharacters {
 	        visited[userString.charAt(i)] = i;
 	    }
 	 
-	    // Compare the length of last NRCS with max_len and
+	    // Compare the length of 
+	    // last NRCS with max_len and
 	    // update max_len if needed
 	    if (cur_len > max_len)
 	        max_len = cur_len;
