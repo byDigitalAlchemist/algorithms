@@ -4,6 +4,8 @@ public class OneEditDistance {
 
 	public boolean isOneEditDistance(String leftString, String rightString) {
 
+		System.out.println("Left :: " + leftString + " :: Right :: " + rightString);
+		
 		int small = leftString.length();
 		int big = rightString.length();
 
